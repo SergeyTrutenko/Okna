@@ -1,0 +1,973 @@
+<?php $frontPage = true ?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Окна века</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"><img src="img/ico/logo.png" alt=""></a>
+    <nav>
+        <ul class="main__nav">
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#">Окна</a></li>
+            <li><a href="#">Профили</a></li>
+            <li><a href="#">Онлайн оплата</a></li>
+            <li><a href="#">Калькулятор</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <div class="contact">
+            <a href="tel:88182608085">8 (8182) 60-80-85</a>
+            <ul class="socials">
+                <li><a href=""><img src="img/ico/vk.svg" alt=""></a></li>
+                <li><a href=""><img src="img/ico/facebook.svg" alt=""></a></li>
+                <li><a href=""><img src="img/ico/instagram.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contact">
+        <a href="tel:88182608085">8 (8182) 60-80-85</a>
+        <ul class="socials">
+            <li><a href=""><img src="img/ico/vk.svg" alt=""></a></li>
+            <li><a href=""><img src="img/ico/facebook.svg" alt=""></a></li>
+            <li><a href=""><img src="img/ico/instagram.svg" alt=""></a></li>
+        </ul>
+    </div>
+    <a href="#" class="main-menu-link">
+        <div class="hamburger" id="hamburger-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </a>
+</header>
+
+<style>
+    .section-form .info form{
+        flex-direction: row;
+    }
+</style>
+
+<main class="content">
+
+	<section class="main-screen">
+        <div class="container">
+            <div class="title">
+                <h1>Пластиковые окна - <br> универсальный <br> вариант для дома</h1>
+                <img src="img/veka.png" alt="">
+                <p>Мы официальные партнеры концерна Veka - <br> мирового лидера в производстве окон</p>
+                <a href="#" class="button btn__blue">Заказать консультацию</a>
+                <a href="#" class="button">Заказать расчет</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-tabs">
+    <div class="container ">
+        <h2>Пластиковые окна и двери по <br> выгодным ценам в Архангельске</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#standard">
+                    <p>Стандарт</p>
+                    <p>от 16 900Р</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#Classic">
+                    <p>Классика</p>
+                    <p>от 16 900Р</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#nonstandard">
+                    <p>Нестандартные <br>решения</p>
+                    <p>от 16 900Р</p>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="card-header collapse-item is-active" >
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#standard" aria-expanded="true" aria-controls="collapseOne">
+                        <p>Стандарт</p>
+                        <p>от 16 900Р</p>
+                    </button>
+                </h5>
+            </div>
+            <div class="tab-pane fade collapse  show active" id="standard">
+                <div class="tab-items">
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <div class="btn__wrap">
+                        <a href="#" class="button">Загрузить еще</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-header collapse-item">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#Classic" aria-expanded="false" aria-controls="collapseOne">
+                        <p>Классика</p>
+                        <p>от 16 900Р</p>
+                    </button>
+                </h5>
+            </div>
+            <div class="tab-pane fade collapse " id="Classic">
+                <div class="tab-items">
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>2323 </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <div class="btn__wrap">
+                        <a href="#" class="button">Загрузить еще</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-header collapse-item">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#nonstandard" aria-expanded="false" aria-controls="collapseOne">
+                        <p>Нестандарт</p>
+                        <p>от 16 900Р</p>
+                    </button>
+                </h5>
+            </div>
+            <div class="tab-pane fade collapse " id="nonstandard">
+                <div class="tab-items">
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <a href="#" class="item">
+                        <img src="img/window.png" alt="">
+                        <h5>Artline </h5>
+                        <p>1.5 х 1.5</p>
+                    </a>
+                    <div class="btn__wrap">
+                        <a href="#" class="button">Загрузить еще</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <section class="section-video">
+    <div class="container">
+        <div class="info">
+            <h2 class="blue">Приглашаем к <br> нам на завод</h2>
+            <p>
+                Приглашаем к нам на завод, чтобы заказать изготовление и купить готовые окна ПВХ в Архангельске
+                максимально дешево. Мы уже более 17 лет производим профили и рамы, которые пользуются большим спросом.
+            </p>
+            <h3>Принцип работы</h3>
+            <p>
+                Наша цель – оказать полный спектр услуг по остеклению. К нам обращаются как собственники частных
+                помещений (квартир, коттеджей, дачных домов), так и строители офисов и промышленных зданий. 
+            </p>
+            <a href="#" class="button">Заказать расчет</a>
+        </div>
+        <div class="video__block">
+            <a href="#" class="video__link">Посмотреть видео с производства <img src="img/ico/play.svg" alt=""></a>
+            <img class="video__image" src="img/bg-video.jpg" alt="">
+        </div>
+    </div>
+</section>      
+    
+    <section class="advantages">
+    <div class="container">
+        <h2 class="blue">Коротко о <br> преимуществах</h2>
+        <p>Главные 6 причин, по которым мы всегда выигрываем любой тендер</p>
+        <div class="advantages__items">
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Быстрая <br> сборка</h5>
+                <p>
+                    У нас действует немецкая технологическая линия, мощность
+                    которой позволяет собирать за 1 рабочую смену 300 оконных
+                    блоков отменного качества
+                </p>
+            </a>
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Иностранные <br> комплектующие</h5>
+                <p>
+                    Мы закупаем только иностранные комплектующие у проверенных крупных поставщиков
+                </p>
+            </a>
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Отдел <br> контроля</h5>
+                <p>
+                    Функционирует отдел технического контроля, который проверяет результат каждого процесса
+                </p>
+            </a>
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Адаптация к <br> условиям рынка</h5>
+                <p>
+                    Мы мониторим ценовую политику на рынке и подстраиваемся под нее, делая самое выгодное предложение;
+                </p>
+            </a>
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Гарантия <br> 3 года</h5>
+                <p>
+                    На все на изделия, и на услугу монтажа распространяется гарантия 3 года.
+                </p>
+            </a>
+            <a href="#" class="item">
+                <img src="img/ico/Ecology-icon.svg" alt="">
+                <h5>Комплесные <br> решения</h5>
+                <p>
+                    Готовы предоставить вам комплексное решение по остеклению, от изготовления до установки.
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section class="our-works">
+    <div class="container">
+        <h2>Примеры НАШИХ работ</h2>
+        <p>Мы проивзодим и доставляем окна не только в г.Архангельск, <br> но и по Архангельской области</p>
+        <div class="example__items">
+            <a href="img/work1.jpg" data-fancybox="works" class="item">
+                <img class="item__image" src="img/work1.jpg" alt="">
+                <div class="mask">
+                    <img src="img/ico/arrows.svg" alt="">
+                </div>
+                <span>
+                    <img src="img/ico/location.svg" alt="">
+                    Архангельск, ул. <br> Москвовская
+                </span>
+            </a>
+            <a href="img/work2.jpg" data-fancybox="works" class="item">
+                <img class="item__image" src="img/work2.jpg" alt="">
+                <div class="mask">
+                    <img src="img/ico/arrows.svg" alt="">
+                </div>
+                <span>
+                    <img src="img/ico/location.svg" alt="">
+                    Архангельск, ул. <br> Москвовская
+                </span>
+            </a>
+            <a href="img/work3.jpg" class="item" data-fancybox="works">
+                <img class="item__image" src="img/work3.jpg" alt="">
+                <div class="mask">
+                    <img src="img/ico/arrows.svg" alt="">
+                </div>
+                <span>
+                    <img src="img/ico/location.svg" alt="">
+                    Архангельск, ул. <br> Москвовская
+                </span>
+            </a>
+            <a href="img/work4.jpg" class="item" data-fancybox="works">
+                <img class="item__image" src="img/work4.jpg" alt="">
+                <div class="mask">
+                    <img src="img/ico/arrows.svg" alt="">
+                </div>
+                <span>
+                    <img src="img/ico/location.svg" alt="">
+                    Архангельск, ул. <br> Москвовская
+                </span>
+            </a>
+        </div>
+        <ul class="slider-nav">
+            <li><img src="img/work1.jpg" alt=""></li>
+            <li><img src="img/work2.jpg" alt=""></li>
+            <li><img src="img/work3.jpg" alt=""></li>
+            <li><img src="img/work4.jpg" alt=""></li>
+        </ul>
+        <?php if($frontPage) { ?>
+            <div class="about">
+                <div class="item">
+                    <h3>У нас работают лучшие специалисты</h3>
+                    <p>
+                        Не имеет значения какую должность занимает сотрудник нашего завода. И инженер, 
+                        и монтажник относятся к своей работе с полной отдачей. Если для вашего заказа будет 
+                        неправильно рассчитана толщина профиля или он окажется недостаточно хорошо упакован при 
+                        транспортировке, то последствия будут печальными. Поэтому мы никогда не позволим себе
+                        нанять не компетентных специалистов.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Нестандартные окна</h3>
+                    <p>
+                        Мы беремся за производство как типовых размеров, так и за индивидуальные заказы.
+                        Самые популярные профили представлены в нашем каталоге, но если вы не нашли 
+                        необходимого – обратитесь к нашим консультантам.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Доставка и самовывоз</h3>
+                    <p>
+                        Если у вас есть свой транспорт, то можете приехать и забрать готовое изделие со склада. 
+                        Но если хотите сэкономить своё время, то закажите трансфер до указанного адреса и в нужное
+                        время. Мы достаточно точно прогнозируем сроки изготовления и транспортировки, так что 
+                        не волнуйтесь за своевременность. Мы не ошибемся.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Видео о Заводе окон</h3>
+                    <div class="wrap">
+                        <a href="#" class="video__link">Посмотреть видео о компании <img src="img/ico/play.svg" alt=""></a>
+                        <img class="video__image" src="img/about-video-bg.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+</section>
+
+    <section class="offers">
+        <div class="container">
+            <h2>Наши предложения <br> профильных систем</h2>
+            <div class="offers__items">
+                <div class="item">
+                    <img src="img/offer1.jpg" alt="">
+                    <h5>Artline</h5>
+                    <p>
+                        Новый образец элегантности.
+                        ARTLINE делает возможным создание окон в новой,
+                        филигранной, «чистой» оптике, когда пластиковые...
+                    </p>
+                    <small><span>6/6</span>камер</small>
+                    <small><span>А++</span>энергоэффективность</small>
+                    <div class="links">
+                        <a href="#">Подробнее<img src="img/ico/right-blue.svg" alt=""></a>
+                        <a href="#">Заказать расчет</a>
+                    </div>
+                    <a href="#" class="button btn__blue">Подробнее<img src="img/ico/right.svg" alt=""></a>
+                </div>
+                <div class="item">
+                    <img src="img/offer2.jpg" alt="">
+                    <h5>Artline</h5>
+                    <p>
+                        Новый образец элегантности.
+                        ARTLINE делает возможным создание окон в новой,
+                        филигранной, «чистой» оптике, когда пластиковые...
+                    </p>
+                    <small><span>6/6</span>камер</small>
+                    <small><span>А++</span>энергоэффективность</small>
+                    <div class="links">
+                        <a href="#">Подробнее<img src="img/ico/right-blue.svg" alt=""></a>
+                        <a href="#">Заказать расчет</a>
+                    </div>
+                    <a href="#" class="button btn__blue">Подробнее<img src="img/ico/right.svg" alt=""></a>
+                </div>
+                <div class="item">
+                    <img src="img/offer3.jpg" alt="">
+                    <h5>Artline</h5>
+                    <p>
+                        Новый образец элегантности.
+                        ARTLINE делает возможным создание окон в новой,
+                        филигранной, «чистой» оптике, когда пластиковые...
+                    </p>
+                    <small><span>6/6</span>камер</small>
+                    <small><span>А++</span>энергоэффективность</small>
+                    <div class="links">
+                        <a href="#">Подробнее<img src="img/ico/right-blue.svg" alt=""></a>
+                        <a href="#">Заказать расчет</a>
+                    </div>
+                    <a href="#" class="button btn__blue">Подробнее<img src="img/ico/right.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="btn__wrap"><a href="#" class="button">Посмотреть все</a></div>
+        </div>
+    </section>
+
+    <section class="section-form bg-blue">
+        <div class="container">
+            <div class="info">
+                <form action="">
+                    <h2>Не знаете какой профиль или окно выбрать? Оставьте заявку.</h2>
+                    <p>
+                        Оставьте ваш телефон, мы перезвоним вам в течение 15 минут и проконсультируем по всем интересующим вас вопросам
+                    </p>
+                    <label>Ваш телефон</label>
+                    <input class="tel__mask" type="tel" name="phone" placeholder="+7 (___) ___-__-__">
+                    <button type="submit" class="button btn__light">Отправить заявку</button>
+                    <span>Нажимая кнопку “Отправить заявку” Вы соглашаетесь с условиями политики конфиденциальности</span>
+                    <a href="#">Или посмотрите видео, о том как выбрать окна и профиль <img src="img/ico/play.svg" alt=""></a>
+                </form>
+            </div>
+            <img class="form__image" src="img/window-form.png" alt="">
+        </div>
+    </section>
+
+    <section class="achievements">
+        <div class="container">
+            <div class="achievements__items">
+                <div class="item">
+                    <h2 class="blue">О компании <br> Завод ОКОН РФ</h2>
+                    <p>Завод окон РФ - это единственный официальный официальный партнер Veka в Карелии.</p>
+                    <h3>Наши Сертификаты</h3>
+                    <div class="certificates">
+                        <div class="certificates__item">
+                            <p>Наши изделия соответствуют всем требованиям, которые выдвигают современные потребители и ГОСТ</p>
+                            <img src="img/certificate.jpg" alt="">
+                            <span>Сертификат соотвествия <br> №14561 от 24.08.2017</span>
+                        </div>
+                        <div class="certificates__item">
+                            <p>Наши изделия соответствуют всем требованиям, которые выдвигают современные потребители и ГОСТ</p>
+                            <img src="img/certificate.jpg" alt="">
+                            <span>Сертификат соотвествия <br> №14561 от 24.08.2017</span>
+                        </div>
+                        <div class="certificates__item">
+                            <p>Наши изделия соответствуют всем требованиям, которые выдвигают современные потребители и ГОСТ</p>
+                            <img src="img/certificate.jpg" alt="">
+                            <span>Сертификат соотвествия <br> №14561 от 24.08.2017</span>
+                        </div>
+                        <div class="certificates__item">
+                            <p>Наши изделия соответствуют всем требованиям, которые выдвигают современные потребители и ГОСТ</p>
+                            <img src="img/certificate.jpg" alt="">
+                            <span>Сертификат соотвествия <br> №14561 от 24.08.2017</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3>Мы достигли этого</h3>
+                    <p>Завод окон - это эффективные и эргономичные решения созданные с учетом требований времени и рынка</p>
+                    <div class="progress__item">
+                        <img src="img/ico/Ecology-icon.svg" alt="">
+                        <strong>Лучшие показатели шумо– и теплоизоляции;</strong>
+                    </div>
+                    <div class="progress__item">
+                        <img src="img/ico/Ecology-icon.svg" alt="">
+                        <strong>Защита от внешних факторов (ветер, солнце, мороз, влага)</strong>
+                    </div>
+                    <div class="progress__item">
+                        <img src="img/ico/Ecology-icon.svg" alt="">
+                        <strong>Продуманный дизайн</strong>
+                    </div>
+                    <div class="progress__item">
+                        <img src="img/ico/Ecology-icon.svg" alt="">
+                        <strong>Взломостойкость</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="reviews">
+    <div class="container">
+        <div class="achievements__items">
+            <div class="item">
+                <h2 class="blue">Отзывы о <br> нашей работе</h2>
+                <div class="reviews__items">
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                    <div>
+                        <p>
+                            Очень профессиональный и приятный сотрудник Андрей. Спасибо большое за качественную и 
+                            четкую работу и приятное общение. Желаю компании больше таких исполнителей и установщиков.
+                            Мы довольны и планируем обратиться снова.
+                        </p>
+                        <h5>Елена Сергеева</h5>
+                        <span>г. Архангельск, Офис</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <h3>Окна в АРХАнГЕЛЬСКЕ НЕДОРОГО</h3>
+                <h4>
+                    У нас самое автоматизированное производство в Архангельске – 
+                    купить пластиковые окна получится совсем недорого
+                </h4>
+                <p>
+                    К цене товаров мы относимся так, чтобы выгоду прежде всего получили вы.
+                    О нашей репутации говорят отзывы на сайте серебряные-окна.рф. Здесь о нас говорят те, 
+                    кто уже приобретали остекление на нашем заводе.
+                </p>
+                <h3>Монтаж</h3>
+                <p>
+                    Есть два варианта: с помощью наших монтажников или своими силами. Нам важно, 
+                    чтобы клиенты были довольны, поэтому никогда не настаиваем на дополнительных услугах, если покупателю это не нужно.
+                </p>
+                <h3>Консультация</h3>
+                <p>
+                    Консультация
+                    Даже если вы имеете опыт установки и хотите сделать всё самостоятельно, то мы не оставим вас наедине с вопросами, 
+                    пока не будет достигнут удовлетворительный результат и рамы не будут надежно стоять в проеме. Вы можете обращаться к нам за грамотной консультацией.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="section-form bg-blue">
+        <div class="container">
+            <div class="info">
+                <form action="">
+                    <h2>Обратитесь на ЗАВОД-ОКОН.РФ <br> и закажите качественное остекление</h2>
+                    <p>
+                        Звоните нам по телефону <a class="tel__link" href="tel:8182608085">(8182) 60-80-85</a> или заполняйте форму обратной связи на сайте. Мы ждём ваших заявок!
+                    </p>
+                    <label>Ваш телефон</label>
+                    <input class="tel__mask" type="tel" name="phone" placeholder="+7 (___) ___-__-__">
+                    <button type="submit" class="button btn__light">Отправить заявку</button>
+                    <span>Нажимая кнопку “Отправить заявку” Вы соглашаетесь с условиями политики конфиденциальности</span>
+                </form>
+            </div>
+            <img class="form__image" src="img/window-form2.png" alt="">
+        </div>
+    </section>
+
+    <?php if(!$contactsPage) { ?>
+      <section class="section-contacts">
+          <div class="container">
+            <div class="info">
+                <h2>Контакты</h2>
+                <img src="img/ico/footer-logo.png" alt="">
+                <p>Tелефон: <a href="tel:8182608085">(8182) 60-80-85</a></p>
+                <p>Почта: <a href="mailto:info@oknaokna.ru">info@oknaokna.ru</a></p>
+                <p>Адрес производства: <a href="#">г.Архангельск, ул.Мира ст.12 А</a></p>
+                <p>Адрес офиса: <a href="#">г.Архангельск, ул.Ленина д.9/11 оф.505-т</a></p>
+                <p>Подпишитесь на нас: </p>
+                <ul class="socials">
+                    <li><a href="#"><img src="img/ico/footer-vk.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/ico/footer-facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/ico/footer-instagram.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="map">
+                <h2>Как добраться?</h2>
+                <div id="#map"></div>
+            </div>
+        </div>
+      </section>
+    <?php } ?>
+</main>
+
+    <?html if(!$contactsPage) { ?>
+      <section class="section-contacts">
+          <div class="container">
+            <div class="info">
+                <h2>Контакты</h2>
+                <img src="img/ico/footer-logo.png" alt="">
+                <p>Tелефон: <a href="tel:8182608085">(8182) 60-80-85</a></p>
+                <p>Почта: <a href="mailto:info@oknaokna.ru">info@oknaokna.ru</a></p>
+                <p>Адрес производства: <a href="#">г.Архангельск, ул.Мира ст.12 А</a></p>
+                <p>Адрес офиса: <a href="#">г.Архангельск, ул.Ленина д.9/11 оф.505-т</a></p>
+                <p>Подпишитесь на нас: </p>
+                <ul class="socials">
+                    <li><a href="#"><img src="img/ico/footer-vk.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/ico/footer-facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/ico/footer-instagram.svg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="map">
+                <h2>Как добраться?</h2>
+                <div id="map"></div>
+            </div>
+        </div>
+      </section>
+    <?html } ?>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Все права защищены (с) 2006 - 2019 Завод Окон РФ</a>
+        <a href="#">Дизайн Boroda Digital</a>
+    </div>
+</footer>
+    <script src="libs/jquery/jquery-2.2.4.min.js"></script>
+    <script src="libs/popper/popper.min.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/jquery/jquery.inputmask.bundle.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/main_script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLmSrYz01qDh9um3Bp6v6995mt43clmh0&callback=initMap" type="text/javascript"></script>  
+    <script>
+      if ($('#map').length > 0) {
+          function initMap() {
+            var oknaMap = {lat: 64.518347, lng: 40.641099};
+            var markerIcon = {url: ''};
+            var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 15, center: {lat: 64.518347, lng: 40.641099}, disableDefaultUI: true});
+            var marker = new google.maps.Marker({position: oknaMap, map: map, icon: markerIcon});
+          }
+      }
+    </script>
+
+
+
+    <div class="modal fade" id="plastic__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Оставьте заявку</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="finishedpvh__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Закажите готовые ПВХ-профили и получите скидку на доставку</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="turnkey-glazing__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Заказать остекление по самым низким ценам от производителя в Архангельске</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="cold-glazing__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Заказать остекление по самым низким ценам от производителя в Архангельске</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="balcony-aluminum__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Заказать остекление по самым низким ценам от производителя в Архангельске</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="panoramic-windows__modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <form action="" class="modal-form">
+                    <h3>Заказать панорамные окна по самым низким ценам от производителя в Архангельске</h3>
+                    <p>
+                        Менеджер свяжется с Вами в ближайшее время   
+                    </p>
+                    <label>
+                        Ваше имя*
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Ваш телефон*
+                        <input type="tel" name="">
+                    </label>
+                    <label>
+                        Комментарий
+                        <input type="text">
+                    </label>
+                    <button type="submit" class="button btn__blue">Отправить заявку</button>
+                    <span>Нажимая на кнопку “Отправить заявку” вы соглашаетесь с условиями политики конфиденцилальности</span>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    $(document).ready(function() {
+      var css = 
+        '<style>\n\
+          .markup-nav { cursor: pointer; position: fixed; z-index: 5000; top: 60px; left: -176px; width: 170px; font:bold 12px/1.2 Helvetica, Arial; box-shadow: 0 0 4px rgba(0, 0, 0, .6); transition: left 200ms ease; box-sizing: border-box; }\n\
+          .markup-nav__inner { background:#fff; border-radius: 0 0 5px 0; padding: 5px 10px 5px 0; position: relative; }\n\
+          .markup-nav:before { content: ""; position: absolute; left: 100%; top: 0; width: 35px; height: 40px; border-radius: 0 5px 5px 0; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAwFBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiCivsAAAAP3RSTlMAAAIEEBEVFiYsLS4vMzg5Ojs8PT5BR0tUXV5gaG5vcHd4fby9v8DBwsTFycvMzc/g4+Tl5uvs7vP09fb5+v5kF+L8AAAAsklEQVR42m3QaReBQBTG8aks2VNIthARQostmvv9v5U7V5164f/qOb9zZuYUyzLi2KAhSTl5AF5B/cuhOYkAgpHqnTWiEwAH6gPgE+2h1JaozQtJVSIb59uu1lcpjjHSwH3gshi2xBG6QxYCliiCaiAKfvSUBVWIQqY54qApaIYj3mi41rhupqxYCY4pvdgD0UsA8AaRC6V2RD7k8fyDNN/tzO9436LlHLv/f06WHl31jL67eSl1BXfldgAAAABJRU5ErkJggg==) no-repeat 62% 50% white; box-shadow: 0 0 4px rgba(0, 0, 0, .6); }\n\
+          .markup-nav a { display: block; padding: 2px 10px; color: #000; /*text-shadow: 1px 1px 0 #283E68;*/text-decoration: none !important; border: none !important; }\n\
+          .markup-nav a:hover { background: #edf1f5; color: #000 !important; }\n\
+          .markup-nav.is-open { left: 0; }\n\
+        </style>';
+
+      var html =
+        '<div class="markup-nav">\n\
+          <div class="markup-nav__inner">\n\
+            <a href="index.html">index.html</a>\n\
+            <a href="profiles.html">profiles.html</a>\n\
+            <a href="plastic.html">plastic.html</a>\n\
+            <a href="pvh.html">pvh.html</a>\n\
+            <a href="services.html">services.html</a>\n\
+            <a href="aluminum.html">aluminum.html</a>\n\
+            <a href="finishedpvh.html">finishedpvh.html</a>\n\
+            <a href="balcony-glazing.html">balcony-glazing.html</a>\n\
+            <a href="terrace-glazing.html">terrace-glazing.html</a>\n\
+            <a href="turnkey-glazing.html">turnkey-glazing.html</a>\n\
+            <a href="cold-glazing.html">cold-glazing.html</a>\n\
+            <a href="balcony-aluminum.html">balcony-aluminum.html</a>\n\
+            <a href="panoramic-windows.html">panoramic-windows</a>\n\
+            <a href="contacts.html">contacts.html</a>\n\
+          </div>\n\
+        </div>'
+
+      $('body').prepend(css + html);
+
+      $('.markup-nav').on('click', function() {
+        $(this).toggleClass('is-open');
+      });
+
+    });
+
+  </script>
+</body>
